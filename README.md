@@ -2,9 +2,13 @@
 
 Welcome to the test project. This is a small application to manage club membership. 
 
+We'll be asking potential candidates to complete this task as part of the recruitment process. 
+
 ### What it contains
 
-The following has already been created
+This app is based upon the Laravel v5.5 framework. 
+
+The following has already been created: 
 
 1. Database structure. Look in database/migrations for details and code comments
 2. Sample member data. 
@@ -31,15 +35,15 @@ Alternatively, this comes with its own `docker-compose.yml` and `docker-setup.sh
 
 Make `docker-setup.sh` exectuable. After running `docker-compose up -d`, run `docker-setup.sh` to set permissions and run database migrations and seeds. 
 
-### Actions
+### Tasks 
 
 Please provide the following functionality. All data should be validated: 
 
-1. Show a list of all members. 
-2. Show a list of all non members. 
+1. Show a list of all members (this is already done, as an example)
+2. Show a list of all non members 
 3. Show a single member, with his/her subscription history
-4. Add a new person to the database, choose a membership type and make a new payment for that member. 
-5. Make a new payment for an expired member. 
+4. Add a new person to the database, choose a membership type and make a new payment for that member 
+5. Make a new payment for an expired member 
 
 Nice to have, but not essential. Do these if you have the time: 
 
@@ -54,7 +58,9 @@ Nice to have, but not essential. Do these if you have the time:
 
 Domain rules are in the `domain-rules.md` file. 
 
-Laravel docs, https://laravel.com/docs/5.5/
+Laravel docs, https://laravel.com/docs/5.5/ 
+
+If you are unfamiliar with Laravel, we recommend you read about Requests, Eloquent, Validation, Collections, and Blade Templating. 
 
 The Carbon date time library is used, http://carbon.nesbot.com/docs/ 
 
