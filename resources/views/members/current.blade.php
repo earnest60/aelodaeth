@@ -1,6 +1,21 @@
 <h1>Current Members</h1>
 
 <table>
+  <thead>
+  <tr>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Surname</td>
+    <td>Address 1</td>
+    <td>Address 2</td>
+    <td>City/Town</td>
+    <td>County</td>
+    <td>Post Code</td>
+    <td>Telephone</td>
+    <td>Actions</td>
+  <tr>
+  </thead>
+  <tbody>
 <?php
 foreach($members as $member)
 {
@@ -18,4 +33,5 @@ foreach($members as $member)
     echo '</tr>';
 }
 ?>
+  </tbody>
 </table>
