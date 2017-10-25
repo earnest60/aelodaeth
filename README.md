@@ -50,6 +50,8 @@ Nice to have, but not essential. Do these if you have the time:
 
 ## Help and Resources
 
+Domain rules are in the `domain-rules.md` file. 
+
 Laravel docs, https://laravel.com/docs/5.5/
 
 The Carbon date time library is used, http://carbon.nesbot.com/docs/ 
@@ -60,3 +62,5 @@ You can upload your code to your own public repo and send us the link, or send a
 
 We will be mainly looking to see how you organize and write your code. 
 
+---
+Copyright 2017 Stockomendation Ltd
