@@ -31,9 +31,13 @@ Run `php artisan migrate --seed` to install the database and sample data.
 
 #### Docker 
 
-Alternatively, this comes with its own `docker-compose.yml` and `docker-setup.sh`.  
+Alternatively, this repo is docker ready. Simply run: 
+    
+    docker-compose up -d
+    chmod +x docker-setup.sh
+    ./docker-setup.sh
 
-Make `docker-setup.sh` exectuable. After running `docker-compose up -d`, run `docker-setup.sh` to set permissions and run database migrations and seeds. 
+The app will be ready at http://0.0.0.0/. 
 
 ### Tasks 
 
