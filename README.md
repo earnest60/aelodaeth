@@ -29,6 +29,8 @@ Run `php artisan migrate --seed` to install the database and sample data.
 
 Alternatively, this comes with its own `docker-compose.yml` and `docker-setup.sh`.  
 
+Make `docker-setup.sh` exectuable. After running `docker-compose up -d`, run `docker-setup.sh` to set permissions and run database migrations and seeds. 
+
 ### Actions
 
 Please provide the following functionality. All data should be validated: 
